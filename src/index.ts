@@ -43,7 +43,7 @@ const Config = {
     jsdelivr: 0,
 };
 
-const whiteList: string[] = []; // 白名单，路径里面有包含字符的才会通过，e.g. ['/username/']
+const whiteList: string[] = ["lim", "Lim", "xaoxuu"]; // 白名单，路径里面有包含字符的才会通过，e.g. ['/username/']
 
 /** @type {ResponseInit} */
 const PREFLIGHT_INIT = {
